@@ -1,5 +1,17 @@
 # pandaset_plus
-
+## Dataset Description
+The structure is as below:
+```
+|--annotations
+  |--objects
+    |--train
+    |--test
+  |--lanes
+    |--lanes_2D
+    |--lanes_3D
+|--evaluation
+|--data
+```
 ## Object_Annotation
 
 ```
