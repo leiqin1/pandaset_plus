@@ -12,7 +12,7 @@ The structure is as below:
 |--evaluation
 |--data
 ```
-## Object_Annotation
+## Object Annotation
 
 ```
 -------------------------------------------------------------
@@ -70,5 +70,23 @@ category_name: Include below categories:
  
 ```
 
-## Lane_Annotation
+## Lane Annotation
+Both 3D and 2D Lane Annotations are with the same format (3D array).  
+  
+1st dimension: Lanes.  
+2nd dimension: Points for each lane.  
+3rd dimension: x, y, z coordinate of each point.  
+### 3D Lane Annotation
+[
+  [
+    [x<sub>1</sub>, y<sub>1</sub>, z<sub>1</sub>], [x<sub>2</sub>, y<sub>2</sub>, z<sub>2</sub>], ..., [x<sub>n</sub>, y<sub>n</sub>, z<sub>n</sub>]
+  ]
+]
+### 2D Lane Annotation
+[
+  [
+    [x<sub>1</sub>, y<sub>1</sub>], [x<sub>2</sub>, y<sub>2</sub>], ..., [x<sub>n</sub>, y<sub>n</sub>]
+  ]
+]
+
 ## Evaluation
