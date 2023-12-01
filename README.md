@@ -8,6 +8,12 @@ The structure is as below:
     |--test
   |--lanes
     |--lanes_2D
+	|--front_camera
+	|--back_camera
+	|--front_left_camera
+	|--front_right_camera
+	|--left_camera
+	|--right_camera
     |--lanes_3D
 |--evaluation
 |--data
