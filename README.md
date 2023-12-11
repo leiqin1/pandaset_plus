@@ -39,7 +39,7 @@ dimensions: Length, width, height
 corners: 3D coordinates of 8 keypoints in camera coordinate system
 yaw: yaw in camera coordinate system
 location: 3D coordinates of center points in camera coordinate system
-image_id: Number of the image, from 00 to 79
+image_id: ID of the image, from 00 to 79
 intrinsic: 3x3 intrinsic matrix
 sensor_name: back_camera, front_camera, front_left_camera, front_right_camera,
 	     left_camera, right_camera
