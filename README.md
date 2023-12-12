@@ -89,7 +89,9 @@ Both 3D and 2D Lane Annotations are with the same format (3D array).
   
 1st dimension: Lanes.  
 2nd dimension: Points for each lane.  
-3rd dimension: x, y, z coordinate of each point.  
+3rd dimension: x, y, z coordinate of each point.
+
+3D lane annotations are presented both in world coordinate system and camera coordinate system.
 ### 3D Lane Annotation
 [
   [
@@ -102,5 +104,6 @@ Both 3D and 2D Lane Annotations are with the same format (3D array).
     [x<sub>1</sub>, y<sub>1</sub>], [x<sub>2</sub>, y<sub>2</sub>], ..., [x<sub>n</sub>, y<sub>n</sub>]
   ]
 ]
-
+## Projection and Coordinate System Transfrom
+Please refer to PandaSet devkit https://github.com/scaleapi/pandaset-devkit
 ## Evaluation
