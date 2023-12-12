@@ -15,6 +15,14 @@ The structure is as below:
 	|--left_camera
 	|--right_camera
     |--lanes_3D
+	|--world_coordinate
+	|--camera_coordinate
+		|--front_camera
+		|--back_camera
+		|--front_left_camera
+		|--front_right_camera
+		|--left_camera
+		|--right_camera
 |--evaluation
 |--data
 ```
