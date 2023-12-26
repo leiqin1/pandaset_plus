@@ -26,6 +26,7 @@ The structure is as below:
 |--evaluation
 |--data
 ```
+Data of PandaSet can be downloaded from https://www.kaggle.com/datasets/pz19930809/pandaset/data
 ## Object Annotation
 
 ```
