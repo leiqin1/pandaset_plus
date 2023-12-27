@@ -23,7 +23,7 @@ The structure is as below:
 	  |--front_right_camera
 	  |--left_camera
 	  |--right_camera
-|--evaluation
+|--devkit
 |--data
 ```
 Data of PandaSet can be downloaded from https://www.kaggle.com/datasets/pz19930809/pandaset/data
