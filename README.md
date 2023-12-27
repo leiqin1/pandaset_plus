@@ -32,7 +32,7 @@ Annotations can be extracted with the following commands:
 ```
 cd annotations/objects/train && cat train* > train.zip && unzip train.zip && rm train* && cd ../../
 cd objects/test && cat test* > test.zip && unzip test.zip && rm test* && cd ../../
-cd lanes_2D
+cd lanes/lanes_2D
 cd back_camera && cat lanes_rear* > lanes_rear.zip && unzip lanes_rear.zip && rm lanes_rear* && cd ../
 cd front_camera && cat lanes_front* > lanes_front.zip && unzip lanes_front.zip && rm lanes_front* && cd ../
 cd front_left_camera && unzip lanes_frontleft.zip && rm lanes_frontleft.zip && cd ../
