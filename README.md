@@ -28,7 +28,7 @@ The structure is as below:
 ```
 Data of PandaSet can be downloaded from https://www.kaggle.com/datasets/pz19930809/pandaset/data
 ## Annotation Extraction
-Annotations can be extracted with the following commands:
+Annotations are in .zip files and can be extracted with the following commands:
 ```
 cd annotations/objects/train && cat train* > train.zip && unzip train.zip && rm train* && cd ../../
 cd objects/test && cat test* > test.zip && unzip test.zip && rm test* && cd ../../
