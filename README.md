@@ -130,3 +130,4 @@ Both 3D and 2D Lane Annotations are with the same format (3D array).
 ## Projection and Coordinate System Transfrom
 Please refer to PandaSet devkit https://github.com/scaleapi/pandaset-devkit
 ## Evaluation
+Please refer to our devkit for evaluation on object detection.
