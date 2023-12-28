@@ -127,7 +127,6 @@ Both 3D and 2D Lane Annotations are with the same format (3D array).
     [x<sub>1</sub>, y<sub>1</sub>], [x<sub>2</sub>, y<sub>2</sub>], ..., [x<sub>n</sub>, y<sub>n</sub>]
   ]
 ]
-## Projection and Coordinate System Transfrom
-Please refer to PandaSet devkit https://github.com/scaleapi/pandaset-devkit
-## Evaluation
-Please refer to our devkit for evaluation on object detection.
+## Devkit
+We provide baseline evaluation code on object detection in the devkit, please refer to tutorial.ipynb. Train and test splits for 2D and 3D lanes can be generated with devkit lane_train_test_split.ipynb 
+For projection and coordinate system transfrom, please refer to PandaSet devkit https://github.com/scaleapi/pandaset-devkit
