@@ -65,7 +65,7 @@ keypoints: Coordinates of 8 key points in image
 front|  |  |  |
      |  2--+--3
      1-----0
-dimensions: Length, width, height
+dimensions: Length, height, width
 corners: 3D coordinates of 8 keypoints in camera coordinate system
 yaw: yaw in camera coordinate system
 location: 3D coordinates of center points in camera coordinate system
