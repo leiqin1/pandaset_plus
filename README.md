@@ -1,4 +1,5 @@
 # pandaset_plus
+The dataset is released under CC BY 4.0 license.
 ## Dataset Description
 The structure is as below:
 ```
