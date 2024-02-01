@@ -34,12 +34,12 @@ Annotations are in .zip files and can be extracted with the following commands:
 cd annotations/objects/train && cat train* > train.zip && unzip train.zip && rm train* && cd ../../
 cd objects/test && cat test* > test.zip && unzip test.zip && rm test* && cd ../../
 cd lanes/lanes_2D
-cd back_camera && cat lanes_rear* > lanes_rear.zip && unzip lanes_rear.zip && rm lanes_rear* && cd ../
-cd front_camera && cat lanes_front* > lanes_front.zip && unzip lanes_front.zip && rm lanes_front* && cd ../
-cd front_left_camera && unzip lanes_frontleft.zip && rm lanes_frontleft.zip && cd ../
-cd front_right_camera && unzip lanes_frontright.zip && rm lanes_frontright.zip && cd ../
-cd left_camera && unzip lanes_left.zip && rm lanes_left.zip && cd ../
-cd right_camera && unzip lanes_right.zip && rm lanes_right.zip && cd ../../
+cd back_camera && cat back_camera* > back_camera.zip && unzip back_camera.zip && rm back_camera* && cd ../
+cd front_camera && cat front_camera* > front_camera.zip && unzip front_camera.zip && rm front_camera* && cd ../
+cd front_left_camera && unzip front_left_camera.zip && rm front_left_camera.zip && cd ../
+cd front_right_camera && unzip front_right_camera.zip && rm front_right_camera.zip && cd ../
+cd left_camera && unzip left_camera.zip && rm left_camera.zip && cd ../
+cd right_camera && unzip right_camera.zip && rm right_camera.zip && cd ../../
 cd lanes_3D/camera_coordinate
 cd back_camera && cat back_camera* > back_camera.zip && unzip back_camera.zip && rm back_camera* && cd ../
 cd front_camera && cat front_camera* > front_camera.zip && unzip front_camera.zip && rm front_camera* && cd ../
