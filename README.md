@@ -117,7 +117,7 @@ Both 3D and 2D Lane line Annotations are with the same format (3D array).
 
 Lane line categories include:
 1: 'white-dash', 2: 'white-solid', 3: 'parking-line', 4: 'yellow-dash', 5: 'yellow-solid',
-6: 'double-yellow-solid', 7: 'curbside', 8: 'virtual-line', 9: 'double-yellow-dash'
+6: 'double-yellow-solid', 7: 'curbside', 8: 'virtual-line', 9: 'double-yellow-dash'.
 
 3D lane line annotations are presented both in world coordinate system and camera coordinate system.
 ### 3D Lane Line Annotation
