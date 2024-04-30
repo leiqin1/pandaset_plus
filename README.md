@@ -133,4 +133,4 @@ We provide baseline evaluation code on object detection in the devkit, please re
 
 Train and test splits for 2D and 3D lanes can be generated with devkit lane_train_test_split.ipynb.
 
-For projection and coordinate system transfrom, please refer to PandaSet devkit https://github.com/scaleapi/pandaset-devkit.
+For projection and coordinate system transform, please refer to PandaSet devkit https://github.com/scaleapi/pandaset-devkit.
