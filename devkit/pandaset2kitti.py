@@ -54,6 +54,7 @@ def format_trans(gt_annos_path, target_path, camera):
                     "Animals - Other": "Skip",     "Pylons": "Skip",     "Road Barriers": "Skip",     "Animals - Bird": "Skip"}
 
     seq_list = os.listdir(gt_annos_path)
+    seq_list.sort()
     img_id = 0
     for seq in tqdm(seq_list):
         anno_seq_path = gt_annos_path + "/" + seq
