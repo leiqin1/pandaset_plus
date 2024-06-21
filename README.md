@@ -60,12 +60,12 @@ Other sequences are for training.
 
 Label description:
 keypoints: Coordinates of 8 key points in image
-        6-----7
-     5--+--4  |
+        4-----5
+     7--+--6  |
      |  |  |  |rear
 front|  |  |  |
-     |  2--+--3
-     1-----0
+     |  0--+--1
+     3-----2
 dimensions: Length, height, width
 corners: 3D coordinates of 8 keypoints in camera coordinate system
 yaw: yaw in camera coordinate system
