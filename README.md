@@ -137,7 +137,8 @@ For projection and coordinate system transform, please refer to PandaSet devkit 
 
 ## 3D Object Detection Baseline
 The yaw angle is updated and the baseline of Monoflex on rear view here is different from the paper:
-
+| Metric | Easy | Moderate | Hard |
+| ------ | ------- | ------ | ------- |
 | AP3D_R11_0.5 | 24.5545 | 13.4474 | 8.0860 |
 | AP3D_R40_0.5 | 21.2261 | 10.7792 | 3.9579 |
 | AP3D_R11_0.7 | 13.7687 | 8.9855 | 6.3571 |
