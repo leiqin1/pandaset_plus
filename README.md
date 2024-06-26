@@ -135,8 +135,8 @@ Train and test splits for 2D and 3D lanes can be generated with devkit lane_trai
 
 For projection and coordinate system transform, please refer to PandaSet devkit https://github.com/scaleapi/pandaset-devkit.
 
-## 3D Object Detection Baseline
-The yaw angle is updated and the baseline of Monoflex on rear view here is different from the paper:
+## Baseline of Monocular 3D Object Detection
+The yaw angle is updated and the baseline on rear view using Monoflex here is different from the paper:
 | Metric | Easy | Moderate | Hard |
 | ------ | ------- | ------ | ------- |
 | AP3D_R11_0.5 | 24.5545 | 13.4474 | 8.0860 |
